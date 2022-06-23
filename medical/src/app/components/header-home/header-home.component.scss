@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 39.2rem;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.06rem;
+}
+
+img {
+  width: 5.69rem;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nome {
+  size: 0.81rem;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+
+button {
+  color: #ec5853;
+  background-color: transparent;
+  border: none;
+}

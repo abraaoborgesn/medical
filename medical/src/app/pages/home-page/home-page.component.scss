@@ -1,0 +1,55 @@
+:host {
+  height: 95%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 39.2rem;
+  height: 100%;
+}
+
+.mat-card {
+  padding: 16px 8px;
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  height: 90vh;
+}
+
+.newHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: #ec5853;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  width: 8.625rem;
+
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #ff7c70;
+  }
+}
+
+.newHeader button img {
+  margin-right: 0.4rem;
+}
+
+.newAppoint {
+  font-size: 0.81rem;
+  color: #ffffff;
+  font-weight: 400;
+}
